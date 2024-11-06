@@ -86,7 +86,7 @@ st.markdown(
 
 # Header
 st.markdown('<div class="header">🎬 Movie Recommender System 🎬</div>', unsafe_allow_html=True)
-st.write(f"If you liked **{selected_movie}**, you might also enjoy these movies:")
+
 
 # Function to fetch movie poster
 def fetch_poster(movie_id):
